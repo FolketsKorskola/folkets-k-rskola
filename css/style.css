@@ -7,6 +7,16 @@
     --dark: #2d3436;
 }
 
+.pris{
+    background-color: #e74c3c;
+    padding: 1%;
+}
+
+.bold{
+    font-weight: bold;
+    fon
+}
+
 #logo{
     height: 75%;
 }
