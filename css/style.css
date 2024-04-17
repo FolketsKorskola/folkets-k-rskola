@@ -14,7 +14,27 @@
 
 .bold{
     font-weight: bold;
-    fon
+}
+
+.main-txt{
+    font-size: 30pt;
+}
+
+.price-bar{
+    position: relative;
+    width: 100%;
+}
+
+.bar{
+    position: absolute;
+    text-align: center;
+    right: -80px;
+    top: 30px;
+    width: 250px;
+    transform: rotate(45deg);
+    color: white;
+    font-weight: bold;
+    background-color: red;
 }
 
 #logo{
