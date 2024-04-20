@@ -37,6 +37,18 @@
     color: var(--secondary) !important;
 }
 
+.red-bg{
+    background-color: var(--primary) !important;
+}
+
+.blue-bg{
+    background-color: var(--secondary) !important;
+}
+
+.gold-bg{
+    background-color: rgb(233, 220, 35) !important;
+}
+
 .bar{
     position: absolute;
     text-align: center;
@@ -46,7 +58,7 @@
     transform: rotate(45deg);
     color: white;
     font-weight: bold;
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
 #logo{
