@@ -2,14 +2,22 @@
 /* origin colors: #F3BD00 #0C2B4B */
 :root {
     --primary: #e74c3c;
-    --secondary: #757575;
+    --secondary: rgb(51, 89, 211);
     --light: #F3F6F8;
     --dark: #2d3436;
 }
 
+.villkor{
+    padding: 5px;
+    max-width: 60%;
+    margin: auto;
+    color: gray;
+}
+
 .pris{
     background-color: #e74c3c;
-    padding: 1%;
+    padding: 5px;
+    margin: 5px;
 }
 
 .bold{
@@ -25,6 +33,10 @@
     width: 100%;
 }
 
+.light-blue{
+    color: var(--secondary) !important;
+}
+
 .bar{
     position: absolute;
     text-align: center;
@@ -34,7 +46,7 @@
     transform: rotate(45deg);
     color: white;
     font-weight: bold;
-    background-color: red;
+    background-color: var(--secondary);
 }
 
 #logo{
@@ -44,6 +56,10 @@
 @media only screen and (max-width: 600px) {
     #logo {
         height: 50%;
+    }
+
+    .villkor{
+        max-width: 90%;
     }
 }
 
@@ -85,6 +101,11 @@
 .btn {
     font-weight: 500;
     transition: .5s;
+}
+
+.btn-primary{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
 }
 
 .btn.btn-primary,
@@ -197,7 +218,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(0, 0, 0, .75);
+    background: rgba(0, 0, 0, .35);
     z-index: 1;
 }
 
